@@ -4,7 +4,7 @@ import Link from "next/link";
 const products = [
   {
     name: "Bajra Cookies",
-    image: "/products/bajara.png",
+    image: "/products/bajra.png",
     desc: "Rich in fiber and traditional millet goodness.",
     link: "/products/bajra",
   },
