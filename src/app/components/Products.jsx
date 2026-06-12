@@ -1,35 +1,42 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const products = [
   {
     name: "Bajra Cookies",
     image: "/products/bajara.png",
     desc: "Rich in fiber and traditional millet goodness.",
+    link: "/products/bajra",
   },
   {
     name: "Jowar Cookies",
     image: "/products/jowar.png",
     desc: "Light, wholesome and naturally nutritious.",
+    link: "/products/jowar",
   },
   {
     name: "Oats Cookies",
     image: "/products/oats.png",
     desc: "Healthy oats blended with premium taste.",
+    link: "/products/oats",
   },
   {
     name: "Multigrain Cookies",
     image: "/products/multigrains.png",
     desc: "A perfect balance of multiple healthy grains.",
+    link: "/products/multigrains",
   },
   {
     name: "Chocolate Cookies",
     image: "/products/chocolate.png",
     desc: "Healthy indulgence with rich cocoa flavor.",
+    link: "/products/chocolate",
   },
   {
     name: "Dry Fruit Cookies",
     image: "/products/dry fruits.png",
     desc: "Loaded with premium nuts and wholesome crunch.",
+    link: "/products/dryfruits",
   },
 ];
 
@@ -74,9 +81,22 @@ export default function Products() {
                 {product.desc}
               </p>
 
-              <button className="mt-6 px-5 py-3 bg-[#7a5a2b] text-white rounded-full hover:bg-[#5f4420] transition">
-                View Product
-              </button>
+              <Link
+  href={product.link}
+  className="
+    inline-block
+    mt-6
+    px-5
+    py-3
+    bg-[#7a5a2b]
+    text-white
+    rounded-full
+    hover:bg-[#5f4420]
+    transition
+  "
+>
+  View Product
+</Link>
             </div>
 
           </div>

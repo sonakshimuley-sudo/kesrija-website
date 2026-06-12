@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import Navbar from '../components/Navbar';
 import { useCart } from '../context/CartContext';
 
+
 export default function CheckoutPage() {
   const { cart, clearCart } = useCart();
   const router = useRouter();
