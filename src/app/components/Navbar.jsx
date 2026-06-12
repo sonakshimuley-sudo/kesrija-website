@@ -21,7 +21,19 @@ useEffect(() => {
 );
 
   return (
-    <nav className="w-full flex items-center justify-between px-10 py-5 border-b border-[#d8cbb8] bg-[#f8f1e7]">
+    <nav className="
+w-full
+flex
+flex-col md:flex-row
+items-center
+justify-between
+px-4 md:px-10
+py-4 md:py-5
+border-b
+border-[#d8cbb8]
+bg-[#f8f1e7]
+gap-4
+">
 
       {/* LEFT SIDE */}
       <div className="flex items-center gap-3">
@@ -46,7 +58,18 @@ useEffect(() => {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="flex items-center gap-8 text-[#6d4c2f] font-medium">
+      <div
+className="
+flex
+flex-wrap
+justify-center
+items-center
+gap-3 md:gap-8
+text-[#6d4c2f]
+font-medium
+text-sm md:text-base
+"
+>
 
         <Link href="/" className="hover:text-[#b88643] transition">
   Home
