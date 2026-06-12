@@ -42,7 +42,7 @@ const products = [
 
 export default function Products() {
   return (
-    <section className="px-10 py-24">
+    <section id="products" className="px-10 py-24">
 
       <div className="text-center mb-16">
         <h2 className="text-5xl font-bold text-[#7a5a2b]">

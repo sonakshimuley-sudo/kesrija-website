@@ -1,7 +1,7 @@
 export default function About() {
   return (
 
-    <section className="px-10 py-28 bg-gradient-to-b from-[#f4eadb] to-[#efe3d2]">
+    <section id="about" className="bg-[#F5F1E8] py-24">
 
       {/* HEADING */}
       <div className="text-center mb-20">

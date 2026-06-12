@@ -48,21 +48,21 @@ useEffect(() => {
       {/* RIGHT SIDE */}
       <div className="flex items-center gap-8 text-[#6d4c2f] font-medium">
 
-        <a href="#" className="hover:text-[#b88643] transition">
-          Home
-        </a>
+        <Link href="/" className="hover:text-[#b88643] transition">
+  Home
+</Link>
 
-        <a href="#" className="hover:text-[#b88643] transition">
-          Products
-        </a>
+<Link href="/#products" className="hover:text-[#b88643] transition">
+  Products
+</Link>
 
-        <a href="#" className="hover:text-[#b88643] transition">
-          About
-        </a>
+<Link href="/#about" className="hover:text-[#b88643] transition">
+  About
+</Link>
 
-        <a href="#" className="hover:text-[#b88643] transition">
-          Contact
-        </a>
+<Link href="/#contact" className="hover:text-[#b88643] transition">
+  Contact
+</Link>
 
       <Link
   href="/cart"
